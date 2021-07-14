@@ -44,12 +44,13 @@ p, ol, ul, td {
 }
 
 body {
+  width: 90%;
   background-color: #fff;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
-  margin: 33px;
+  margin: 30px 50px;
 }
 
 .flash {
@@ -62,11 +63,15 @@ body {
   display: table;
 }
 
-.error_explanation {
+.error-box {
   width: 450px;
-  border: 2px solid red;
+  border: 3px solid red;
   padding: 7px;
   padding-bottom: 0;
   margin-bottom: 20px;
   background-color: #f0f0f0;
+}
+
+.error-text {
+  text-align: center;
 }

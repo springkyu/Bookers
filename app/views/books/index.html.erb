@@ -22,9 +22,11 @@
 
 <h2>New book</h2>
 <% if @book.errors.any? %>
-  <%= @book.errors.count %>error prohibited this book from being saved:
-  <% @book.errors.full_messages.each do |message| %>
-    <%= message %>
+  <div class="error-box">
+    <%= @book.errors.count %>error prohibited this book from being saved:
+    <% @book.errors.full_messages.each do |message| %>
+  　<div class="error-text"><%= message %></div>
+  </div
   <% end %>
 <% end %>
 
